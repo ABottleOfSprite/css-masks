@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Masks</title>
+</head>
+<body>
+  <header id="header">
+    <h1 class="title">LEARNING CSS MASKS</h1>
+    <img src="image-2.jpg" alt="image" class="header__img">
+  </header>
+  <main>
+    <article>
+      CSS masks allow you to define how an element's content is displayed or clipped based on another element or an image. Masks are applied using the `mask` property in CSS. <br><br>
+      
+      <span class="sub-title">Here's everything you need to know about CSS masks:</span> <br><br>
+
+      <b>1. Mask Image</b><br> You can apply a mask using an image. The white parts of the mask image reveal the content of the masked element, while the black parts hide it. Gray areas partially reveal the content based on their opacity. <br><br>
+
+      <b>2. Mask Type</b><br> You can specify the type of mask, such as `alpha` (default), `luminance`, or `auto`. `alpha` uses the alpha channel of the mask image to determine visibility, `luminance` uses the luminance (brightness) values of the mask image, and `auto` automatically selects the type based on the mask image. <br><br>
+
+      <b>3. Mask Position, Size, and Repeat</b><br> You can control the positioning, sizing, and repetition of the mask image using properties like `mask-position`, `mask-size`, and `mask-repeat`. <br><br>
+
+      <b>4. Masking with SVG</b><br> You can use SVG (Scalable Vector Graphics) elements as masks by referencing them directly in CSS. <br><br>
+
+      <b>5. Masking with Gradients</b><br> You can create gradients to use as masks. This technique is useful for creating complex mask effects. <br><br>
+          
+
+      <b>6. Masking with CSS Shapes</b><br> You can use CSS shapes (like circles or polygons) as masks by defining them using the `clip-path` property. <br><br>
+
+      <b>7. Browser Support</b><br> CSS masking is widely supported in modern browsers, but there may be some limitations, especially with older browser versions. Always check compatibility before using advanced masking techniques in production. <br><br>
+
+      CSS masks provide a powerful way to create visually interesting effects by controlling how elements are displayed or clipped based on other elements or images. They are commonly used in web design for things like image overlays, text effects, and decorative elements. <br><br>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1rem + 0.5em)
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: "Geist", "Helvetica", sans-serif;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+
+img {
+  width: 30vw;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__img {
+  -webkit-mask-image: url("mask-1.svg");
+  mask-image: url("mask-1.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+}
+
+.title {
+  font-size: 6rem;
+  line-height: 1;
+  max-width: 8ch;
+  font-weight: 900;
+  text-align: right;
+  color: rgb(255, 153, 0);
+}
+
+article {
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 3rem;
+}
+
+.sub-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+b {
+  color: rgba(255, 153, 0, 0.747);
+}
