@@ -22,6 +22,7 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  filter: drop-shadow(0.2rem 2rem 2rem rgb(0, 0, 0));
 }
 
 .header__img {
@@ -56,4 +57,19 @@ article {
 
 b {
   color: rgba(255, 153, 0, 0.747);
+}
+
+.second-title {
+  text-align: center;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 900;
+  margin-top: 5rem;
+  margin-bottom: 50rem;
+  background-image: url("image-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0.2rem 2rem 2rem rgb(0, 0, 0));
 }
